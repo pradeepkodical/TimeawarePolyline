@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright></Copyright>
+    <Company>Kiprosh America Inc</Company>
+    <Authors>Pradeep Kodical</Authors>
+  </PropertyGroup>
+
+</Project>

@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.779
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeawarePolylineApp", "Source\TimeawarePolylineApp.csproj", "{FCAA8AF1-1548-4B18-AECB-F0ECA3853D9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeawarePolyline.Lib", "TimeawarePolyline.Lib\TimeawarePolyline.Lib.csproj", "{317A7EF6-C3BE-43FF-92FA-C86BB65050E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{FCAA8AF1-1548-4B18-AECB-F0ECA3853D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCAA8AF1-1548-4B18-AECB-F0ECA3853D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCAA8AF1-1548-4B18-AECB-F0ECA3853D9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{317A7EF6-C3BE-43FF-92FA-C86BB65050E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{317A7EF6-C3BE-43FF-92FA-C86BB65050E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{317A7EF6-C3BE-43FF-92FA-C86BB65050E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{317A7EF6-C3BE-43FF-92FA-C86BB65050E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

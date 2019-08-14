@@ -1,6 +1,6 @@
 using System;
 
-namespace TimeawarePolylineApp.Entities
+namespace TimeawarePolyline.Lib.Entities
 {
     public class Location
     {

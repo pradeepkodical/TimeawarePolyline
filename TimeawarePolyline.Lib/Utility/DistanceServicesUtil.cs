@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using TimeawarePolylineApp.Entities;
+using TimeawarePolyline.Lib.Entities;
 
-namespace TimeawarePolylineApp.Utility
+namespace TimeawarePolyline.Lib.Utility
 {
-    class DistanceServicesUtil
+    public class DistanceServicesUtil
     {
         public double GetDistance(string encodedPolyline)
         {
@@ -14,7 +14,7 @@ namespace TimeawarePolylineApp.Utility
             return distance;
         }
 
-        private static List<Location> GetValidLocations(List<Location> data)
+        private List<Location> GetValidLocations(List<Location> data)
         {
             var retList = new List<Location>();
 

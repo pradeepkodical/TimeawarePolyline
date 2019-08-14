@@ -43,14 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entities\Location.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Utility\DistanceServicesUtil.cs" />
-    <Compile Include="Utility\TimeawarePolylineUtil.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TimeawarePolyline.Lib\TimeawarePolyline.Lib.csproj">
+      <Project>{317a7ef6-c3be-43ff-92fa-c86bb65050e0}</Project>
+      <Name>TimeawarePolyline.Lib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

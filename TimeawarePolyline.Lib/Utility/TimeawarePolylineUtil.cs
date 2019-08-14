@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using TimeawarePolylineApp.Entities;
+using TimeawarePolyline.Lib.Entities;
 
-namespace TimeawarePolylineApp.Utility
+namespace TimeawarePolyline.Lib.Utility
 {
     public class TimeawarePolylineUtil
     {

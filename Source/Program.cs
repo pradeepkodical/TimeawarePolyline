@@ -1,5 +1,5 @@
 ﻿using System;
-using TimeawarePolylineApp.Utility;
+using TimeawarePolyline.Lib.Utility;
 
 namespace TimeawarePolylineApp
 {
